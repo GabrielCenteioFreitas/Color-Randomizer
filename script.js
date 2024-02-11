@@ -17,5 +17,6 @@ function copyText() {
         window.getSelection().addRange(range);
         document.execCommand("copy");
         window.getSelection().removeAllRanges();
+        
         alert('Código da cor copiado!')
 }
